@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Jacqueline Pettenuci</title>
+    <style>
+        body, .menu, .rodape {
+            margin: 0;
+        }
+        header {
+            background-color: #00cd85;
+            line-height: 60px;
+            width: 100%;
+        }
+        .menu, h1, p3, form {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        li, a, button, p3 {
+            color: white;
+        }
+        h1, form, a.classe1:hover {
+            color: #555857;
+        }
+        .menu {
+            font-size: 20px;
+            text-align: right;
+            font-weight: bold;
+        }
+        li { 
+            display: inline;
+            padding: 10px 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        a.classe1:active {
+            color: black;
+        }
+        h1 {
+            text-align: center;
+            margin: 80px auto;
+        }
+        form {
+            margin: 30px auto;
+            max-width: 600px;
+            padding: 20px;
+            border: 3px solid #00cd85;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            align-items: center;
+
+        }
+        input,textarea {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        th {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: right;
+            float: unset;
+        }
+        button {
+            background-color: #555857;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #00cd85;
+        }
+        .rodape {
+            background-color: #555857;
+            position: fixed;
+	        bottom: 0;
+            width: 100%;
+            height: 35px; /* Define a altura do rodapé */
+            text-align: center;
+            padding-top: 1%;
+        }
+        p3 {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="file:///Users/jgp/HTML/Trabalho%20portfolio/home.html" class="classe1">Sobre</a></li>
+            <li><a href="file:///Users/jgp/HTML/Trabalho%20portfolio/formacao.html" class="classe1">Formação</a></li>
+            <li><a href="file:///Users/jgp/HTML/Trabalho%20portfolio/contato.html" class="classe1">Contato</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1> Entre em contato!</h1>
+        <form>
+            <table>
+                <tr>
+                    <th><label for="msg">Digite sua mensagem:</label></th>
+                    <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem aqui...</textarea></td>
+                </tr>
+                <tr>
+                    <th><label for="nome">Nome</label></th>
+                    <td><input type="text" name="nome" id="nome"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Enviar</button></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p3>Thank's for your visit!</p3>
+        </div>
+    </footer>
+</body>
+</html>
